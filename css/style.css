@@ -12,6 +12,58 @@
 
 /* FEATURES SECTION */
 
+.features-wrapper{
+	background-color: #181f2a;
+}
+.features-section{
+	color: #fff;
+	display: flex;
+	flex-flow: row wrap;
+	text-align: center;
+	width: 70%;
+	margin: auto;
+}
+
+.features-section div {
+	width: 50%;
+	margin-top: 10px;
+	margin-bottom: 60px;
+}
+
+.features-section h4 {
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 16px;
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+
+.security h4 {
+	margin-top: -8px;
+}
+
+.any-file h4 {
+	margin-top: 5px;
+}
+
+.features-section p {
+	margin-left: 65px;
+	font-family: open Sans;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.features-section .access-text, .features-section .any-file-text  {
+	width: 68%;
+}
+
+.features-section .security-text, .features-section .collaboration-text {
+	width: 75%;
+}
+
+
+
+
 
 /* PRODUCTIVE SECTION */
 
@@ -34,7 +86,8 @@
 
 ### Accent
 
-- Cyan (inside call-to-action gradient): hsl(176, 68%, 64%) / 	#65e2d9
+- Cyan 
+(inside call-to-action gradient): hsl(176, 68%, 64%) / 	#65e2d9
 - Blue (inside call-to-action gradient): hsl(198, 60%, 50%) / #339ecc
 
 ### Neutral

@@ -2,6 +2,43 @@
 
 
 /* FEATURES SECTION */
+ @media all and (max-width: 1024px) {
+
+ 	.features-section {
+ 		width: 100%;
+ 	}
+}
+
+@media all and (max-width: 710px) {
+
+ 	.features-section {
+ 		width: 100%;
+ 	}
+
+ 	.features-section p {
+		margin-left: 40px;
+	}
+
+ 	.features-section .access-text, .features-section .any-file-text  {
+		width: 75%;
+	}
+
+	.features-section .security-text, .features-section .collaboration-text {
+		width: 80%;
+	}
+}
+
+@media all and (max-width: 560px) {
+	.features-section {
+		width: 100%;
+		flex-flow: column wrap;
+	} 
+
+	.features-section div {
+		width: 100%;
+	}
+}
+
 
 
 /* PRODUCTIVE SECTION */
